@@ -30,7 +30,7 @@ int main() {
 
     Tree tree(nums);
 
-    vector<int> result = TreeBFS(tree.root);
+    vector<int> result = TreeBFS(tree.root->left);
 
     Print(result);
 
